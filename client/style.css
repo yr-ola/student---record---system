@@ -1,0 +1,130 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f6ff;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Login Page Container */
+  .container {
+    display: flex;
+    width: 900px;
+    max-width: 100%;
+    margin: 60px auto;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  
+  /* Login Form Section */
+  .form-side {
+    flex: 1;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .form-side h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: block;
+    color: #444;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border 0.2s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #007BFF;
+  }
+  
+  .form-side button {
+    margin-top: 25px;
+    padding: 14px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .form-side button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Background Image Side */
+  .image-side {
+    flex: 1;
+    background: url('dts_picture.jpg') center center no-repeat;
+    background-size: cover;
+    background-color: #eef2f9;
+  }
+  
+  /* Table Styles for Dashboard */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background: #007bff;
+    color: white;
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      width: 90%;
+    }
+  
+    .image-side {
+      height: 200px;
+    }
+  }
+
+  #studentWelcome {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #studentInfo {
+    background: #f0f8ff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+  }
+  
